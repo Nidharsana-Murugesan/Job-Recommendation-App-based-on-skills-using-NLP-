@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Recommendation System</title>
+    <style>
+        body {
+            background-image: url("/static/images/hd_bg.jpg");
+            background-repeat:no-repeat;
+            background-size: cover; /* Keeps the entire image visible without cropping */
+            background-position: center;
+            background-color: #393f4d; /* Fallback color for empty spaces */
+            background-blend-mode: overlay; /* Blend image with background color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #fff; /* Ensure text color contrasts with background */
+            text-align: center;
+        }
+
+        .container {
+            text-align: center;
+            /*background-color: rgba(0, 9, 15, 0.925); /* Semi-transparent background for better readability */
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .login-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #393f4d;
+            background-color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .login-button:hover {
+            background-color: #0056b3;
+            color:#fff
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Job Recommendation System based on Skills</h1>
+        <a href="/login" class="login-button">Login</a>
+    </div>
+</body>
+</html>
