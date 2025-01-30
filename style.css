@@ -1,0 +1,52 @@
+body {
+    background-image: url("/static/images/hd_bg.jpg");
+    background-repeat:no-repeat;
+    background-size: cover; /* Keeps the entire image visible without cropping */
+    background-position: center;
+    background-color: #393f4d; /* Fallback color for empty spaces */
+    background-blend-mode: overlay; /* Blend image with background color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
