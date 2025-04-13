@@ -1,7 +1,11 @@
 # Job-Recommendation-App-based-on-skills-using-NLP-
 
 ## Introduction
-The **Job Recommendation System Based on Skills** is a web-based application that leverages machine learning and natural language processing (NLP) techniques to recommend jobs to users based on their skills. The platform simplifies the job search process by providing personalized job recommendations, making it easier for users to find positions that align with their expertise. The system uses **TF-IDF vectorization** to analyze job descriptions and a **Random Forest Classifier** to predict the most suitable job titles based on user input.
+The **Job Recommendation System Based on Skills** is a web-based application that leverages machine learning and natural language processing (NLP) techniques to recommend jobs to users based on their skills. 
+The platform simplifies the job search process by providing personalized job recommendations, making it easier for users to find positions that align with their expertise. 
+The system uses 
+**TF-IDF vectorization** to analyze job descriptions and  
+**Random Forest Classifier** to predict the most suitable job titles based on user input.
 
 ---
 
@@ -21,8 +25,8 @@ For Model Building:
 -- **NumPy**: For numerical computations.
 -- **Scikit-learn**: Random Forest Classifier for model training and prediction.
 		     TF-IDF Vectorizer for natural language processing.
-		     Train-test split for data splitting.
-		     Performance metrics such as accuracy and classification report.
+       		     Train-test split for data splitting.
+	      	     Performance metrics such as accuracy and classification report.
 -- **FuzzyWuzzy** : Matching user-input skills to predefined skill sets in the job descriptions with approximate matching.
 -- **Levenshtein** : It speeds up FuzzyWuzzy computations significantly because FuzzyWuzzy relies on Levenshtein distance under the hood for string similarity calculations.
 
